@@ -89,7 +89,7 @@ Once brought into Tableau you can use date and sum sales in your rows and column
 ### **Data** ###
 
   * [StoreSalesData.csv](https://video.udacity-data.com/topher/2016/November/582bff6a_storesalesdata/storesalesdata.csv) - This file contains sales by product category for all existing stores for 2012, 2013, and 2014.
-  * [StoreInformation.csv](https://video.udacity-data.com/topher/2016/November/582bff5f_storeinformation/storeinformation.csv) - This file contains location data for each of the stores.
+  * [StoreInformation.csv](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/combining-predictive-techniques/storeinformation.csv) - This file contains location data for each of the stores.
   * [StoreDemographicData.csv](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/combining-predictive-techniques/storedemographicdata.csv) - This file contains demographic data for the areas surrounding each of the existing stores and locations for new stores.
 
 
