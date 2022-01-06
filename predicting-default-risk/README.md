@@ -54,6 +54,6 @@ Write a brief report on how you came up with your classification model and write
 
 ### Data ###
 
-[credit-data-training.xlsx](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-default-risk/credit-data-training.xlsx) - This file contains all credit approvals from your past loan applicants the bank has ever completed.
+[*credit-data-training.xlsx*](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-default-risk/credit-data-training.xlsx) - This file contains all credit approvals from your past loan applicants the bank has ever completed.
 
-[customers-to-score.xlsx](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-default-risk/customers-to-score.xlsx) - This is the new set of customers that you need to score on the classification model you will create.
+[*customers-to-score.xlsx*](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-default-risk/customers-to-score.xlsx) - This is the new set of customers that you need to score on the classification model you will create.
