@@ -12,30 +12,25 @@ You’ve been asked to predict the expected profit from these 250 new customers.
 
 Write a short report with your recommendations outlining your reasons why the company should go with your recommendations to your manager.
 
-## Steps to Success ##
+## Project Walkthrough ##
 
 ### Step 1: Business and Data Understanding ###
-Your project should include:
+Your project includes:
 
   * A description of the key business decisions that need to be made.
-**Note:** Clean data is provided for this project, so you can skip the data preparation step of the Problem Solving Framework.
-
 ### Step 2: Analysis, Modeling, and Validation ###
-Build a linear regression model, then use it to predict sales for the 250 customers. We encourage you to use Alteryx to build the best linear model with your data.
+I Built a linear regression model, which I then used to predict sales for the 250 customers. I used Alteryx for the linear model build.
 
-You should create your linear regression model and come up with a linear regression equation.
-
-Once you have your linear regression equation, you should use your linear regression equation to predict sales for the individual people in your mailing list.
+The prediction for the sales for the individual people in the mailing list have been calculated with the linear regression equation from the linear regression model
 
 ### Step 3: Writeup ###
-Once you have your predicted or expected profit, write a brief report with your recommendation to whether the company should send the catalog or not.
+Lastly I created a report with my recommendation.
 
 ## Data ##
 
 [*p1-customers.xlsx*](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-catalog-demand/p1-customers.xlsx) - This dataset includes the following information on about 2,300 customers.
-**Important:** You should build your model on this dataset and not *p1-mailinglist.xlsx.*
 
-[*p1-mailinglist.xlsx*](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-catalog-demand/p1-mailinglist.xlsx) - This dataset is the 250 customers that you need to predict sales. This is the list of customers that the company would send a catalog to. Use this dataset to estimate how much revenue the company can expect if they send out the catalog. It includes all of the fields from P1_Customers.xlsx except for `Responded_to_Last_Catalog` **so this variable cannot be used in the linear regression model since it could not be applied to the mailing list data set.** It also includes two additional variables.
+[*p1-mailinglist.xlsx*](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-catalog-demand/p1-mailinglist.xlsx) - This dataset is the 250 customers needed to predict sales. This is the list of customers that the company would send a catalog to. This dataset was used to estimate how much revenue the company can expect if they send out the catalog. It includes all of the fields from P1_Customers.xlsx except for `Responded_to_Last_Catalog` **so this variable was not used in the linear regression model since it could not be applied to the mailing list data set.** It also includes two additional variables.
 
   * Score_No: The probability that the customer WILL NOT respond to the catalog and not make a purchase.
   * Score_Yes: The probability that the customer WILL respond to the catalog and make a purchase.
