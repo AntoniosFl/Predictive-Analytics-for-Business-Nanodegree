@@ -18,26 +18,22 @@ You have the following information to work with:
   1. Data on all past applications
   2. The list of customers that need to be processed in the next few days
 
-## Steps to Success ##
+## Project Walkthrough ##
 
 ### Step 1: Business and Data Understanding ###
-Your project should include a description of the key business decisions that need to be made.
+The project includes a description of the key business decisions that need to be made.
 
-### Step 2: Explore and Cleanup the Dat ### 
-To properly build the model, and select predictor variables, you need to explore and cleanup your data.
+### Step 2: Exploration and Cleanup of the Data ### 
+The exploration and cleanup of the data included:
 
-Here are some guidelines to help you clean up the data:
+  1. Check of data fields with high correlation (correlation > .70).
+  2. Check for missing data for each of the data fields.
+  3. Check for data fields with "low variability”.
 
-  1. Are any of your numerical data fields highly-correlated with each other? The correlation should be at least .70 to be considered “high”.
-  2. Are there any missing data for each of the data fields? Fields with a lot of missing data should be removed
-  3. Are there only a few values in a subset of your data field? Does the data field look very uniform (there is only one value for the entire field?). This is called “low variability” and you should remove fields that have low variability. Refer to the "Tips" section to find examples of data fields with low-variability.
-  4. Your clean data set should have 13 columns where the Average of `Age Years` should be 36 (rounded up)
-**Note:** If you decide to impute any data field, for the sake of consistency in the data cleanup process, impute the data using the median of the entire data field.
+## Step 3. Classification Models training ## 
+Training set was 70% and Validation set 30%.
 
-## Step 3. Train your Classification Models ## 
-You should choose 70% to create the Estimation set and 30% to create the Validation set. Set the Random Seed to 1 if you're using Alteryx.
-
-Train your dataset using these models:
+The dataset was trained using the following models:
 
   * Logistic Regression
   * Decision Tree
@@ -45,15 +41,13 @@ Train your dataset using these models:
   * Boosted Tree
 
 ## Step 4. Writeup ##
-Compare all of the models’ performance against each other. Decide on the best model and score your new customers.
+The models’ performance were compared against each other. New customers were scored based on the best model.
 
-**Important:** Your manager only cares about how accurate you can identify people who qualify and do not qualify for loans for this problem.
-
-Write a brief report on how you came up with your classification model and write down how many of the new customers would qualify for a loan.
+A brief report on how I came up with the classification model was written as well as the number of new customers who would qualify for a loan.
 
 
 ### Data ###
 
 [*credit-data-training.xlsx*](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-default-risk/credit-data-training.xlsx) - This file contains all credit approvals from your past loan applicants the bank has ever completed.
 
-[*customers-to-score.xlsx*](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-default-risk/customers-to-score.xlsx) - This is the new set of customers that you need to score on the classification model you will create.
+[*customers-to-score.xlsx*](https://github.com/AntoniosFl/Predictive-Analytics-for-Business-Nanodegree/blob/main/predicting-default-risk/customers-to-score.xlsx) - This is the new set of customers that were scored on the classification model I built.
