@@ -15,9 +15,8 @@ Write a short report with your recommendations outlining your reasons why the co
 ## Project Walkthrough ##
 
 ### Step 1: Business and Data Understanding ###
-Your project includes:
+The project includes a description of the key business decisions that needed to be made.
 
-  * A description of the key business decisions that need to be made.
 ### Step 2: Analysis, Modeling, and Validation ###
 I Built a linear regression model, which I then used to predict sales for the 250 customers. I used Alteryx for the linear model build.
 
